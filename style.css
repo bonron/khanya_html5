@@ -1,70 +1,261 @@
-body {
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.container-fluid {
+    margin: 0;
 }
 
-.main{
-background-color: tomato;
-  color: white;
-  padding: 10px;
-  text-align: left;  
-}
-.bar{
-	
-}
-.navigation{
-background-color: #333;
-    overflow: hidden;	
-}
-.intro{
-	
-}
-.paragraph{
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;	
-}
-.verse{
-	
-}
-.slideshow{
-	
-}
-.navigation bar{
-	
-}
-.intro paragraph{
-text-decoration: none;
-  font-size: 17px;	
-}
-.main paragraph{
-	
-}
-.verse slideshow{
-	
-}
-.bottom{
-	
+i {
+    opacity: 1;
+    padding: 2%;
+    margin: 2%;
 }
 
-.navigation a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+header {
+    padding: 10px 10px 10px 10px;
+    background-color: coral;
+    height: 80px;
+    width: 100%;
+    border-style: solid;
+    opacity: 0.85;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-.navigation a:hover {
-  background-color: #ddd;
-  color: black;
+#head {
+    opacity: 1;
 }
 
-.navigation a.active {
-  background-color: #4CAF50;
-  color: white;
+.literature {
+    margin: 2% 20px;
+    font-weight: 700;
+    line-height: 3;
+}
+
+.adults,
+.children,
+.youth,
+.life {
+    position: relative;
+    margin: 2% auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.pic {
+    height: auto;
+    width: 60%;
+    display: inline-block;
+}
+
+button {
+    background-color: coral;
+    width: 150px;
+    height: 40px;
+    z-index: 2;
+    border-radius: 10px;
+    border-style: groove;
+    color: navy;
+    font-size: 16px;
+}
+
+.sermon {
+    text-align: left;
+    width: 100%;
+}
+
+.btn-outline-info {
+    align-content: center;
+    align-content: space-around;
+    display: inline-block;
+    text-align: center;
+}
+
+.vids {
+    background-color: wheat;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+}
+
+input {
+    min-width: 70px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+nav ul {
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    float: left;
+    z-index: 50;
+}
+
+#verseslideshow {
+    display: flex;
+    width: 50%;
+    border: 3px;
+    background-color: coral;
+    position: relative;
+    padding: 15px;
+    margin: auto;
+}
+
+#verse {
+    padding-left: 15px;
+}
+
+nav {
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    position: sticky;
+    z-index: 50;
+    opacity: 1;
+}
+
+video {
+    background-size: cover;
+    width: 80%;
+    display: flex;
+    height: 650px;
+    margin: auto;
+    align-items: center;
+    padding-top: 25px;
+    z-index: 2;
+}
+
+.animation {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    padding: 2%;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer li {
+    list-style: none;
+}
+
+p {
+    font-size: 18px;
+    font-family: poppins, sans-serif;
+    padding: 15px;
+}
+
+h1,
+h2,
+h3 {
+    padding: 10px;
+}
+
+#search {
+    float: right
+}
+
+#imagesource {
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    height: 300px;
+    background-color: burlywood;
+}
+
+#navigator {
+    background-color: blue;
+}
+
+.search {
+    padding: 2% 3%;
+    height: 5px;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 2% 5px;
+    color: coral;
+}
+
+.nav-link {
+    color: coral;
+}
+
+.image {
+    align-items: center;
+    margin: 2% auto;
+    width: auto;
+    height: auto;
+}
+
+hr {
+    width: 80%;
+    border-style: dotted;
+    border-top: none;
+    align-items: center;
+    margin: auto;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: auto;
+    margin: 2% auto;
+    background-color: cadetblue;
+}
+
+.life1 {
+    width: 100%;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+#info {
+    margin: 2% auto;
+    position: relative;
+    padding: 20px;
+}
+
+.btn {
+    background-color: coral;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+}
+
+.information {
+    margin: 2% auto;
+}
+
+#footer {
+    background-color: grey;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+.bottom1 {
+    display: flex;
+    list-style: none;
+    margin: 0 2%;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 824px) {
+    .bottom1 {
+        background: none;
+        display: inline-block;
+    }
 }
